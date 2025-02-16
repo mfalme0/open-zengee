@@ -18,8 +18,8 @@ This project provides an E1.31 (sACN) listener that receives RGB data packets an
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/e131-fluxled-bridge.git
-   cd e131-fluxled-bridge
+   git clone https://github.com/your-repo/open-zengge.git
+   cd open-zengge
    ```
 
 2. Install required dependencies:
@@ -33,7 +33,7 @@ Edit the `config` dictionary in the script:
 
 ```python
 config = {
-    "ip_address": "192.168.4.48",  # Change to your device's IP
+    "ip_address": "192.168.0.1",  # Change to your device's IP
     "pixel_count": 1,
 }
 ```
@@ -62,7 +62,7 @@ To use this with OpenRGB as an E1.31 device, configure it as follows:
 - **Universe Size:** `512`
 
 Once configured, OpenRGB will send RGB data to the script, which will forward it to the FluxLED bulb.
-![openrgb config](https://imgur.com/a/6FXa3dH)
+![openrgb config](https://imgur.com/a/6FXa3dH.png)
 
 ## Troubleshooting
 - **Device not responding?** Ensure the IP address is correct and the device is powered on.
