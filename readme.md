@@ -33,7 +33,7 @@ Edit the `config` dictionary in the script:
 
 ```python
 config = {
-    "ip_address": "192.168.0.1",  # Change to your device's IP
+
     "pixel_count": 1,
 }
 ```
