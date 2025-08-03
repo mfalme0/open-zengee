@@ -85,7 +85,7 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
 
     config = {
-        "ip_address": "10.5.6.2",  # Change to your device IP
+        "ip_address": "192.168.1.65",  # Change to your device IP
         "pixel_count": 1,
     }
     
