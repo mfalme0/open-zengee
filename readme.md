@@ -18,7 +18,7 @@ This project provides an E1.31 (sACN) listener that receives RGB data packets an
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/open-zengge.git
+   git clone https://github.com/open-zengge.git
    cd open-zengge
    ```
 
