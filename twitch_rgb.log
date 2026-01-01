@@ -1,0 +1,5 @@
+2025-08-12 18:30:01,225 - ERROR - Error connecting to OpenRGB: timed out
+2025-08-12 18:30:20,712 - INFO - Connected to OpenRGB: ['main']
+2025-08-12 18:31:06,915 - INFO - Connected to OpenRGB: ['main']
+2025-08-12 18:33:04,138 - INFO - Connected to OpenRGB: ['main']
+2025-08-12 18:33:04,139 - DEBUG - Using proactor: IocpProactor
