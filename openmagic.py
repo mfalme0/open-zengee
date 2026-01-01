@@ -81,7 +81,7 @@ class ZenggeDevice:
             
             # Swap red and green values
             r, g, b = rgb_data[0], rgb_data[1], rgb_data[2]
-            self.bulb.setRgb(g, r, b)  # Swapped R and G
+            self.bulb.setRgb(r, g, b)  # Swapped R and G
         except Exception as e:
             _LOGGER.error(f"Error sending data to bulb at {self._ip_address}: {e}")
 
