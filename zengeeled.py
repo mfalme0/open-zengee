@@ -19,7 +19,7 @@ def get_local_ip():
     """Find the local IP address of the machine to report to SignalRGB."""
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     try:
-        s.connect(('10.255.255.255', 1))
+        s.connect(('10.5.6.10', 1))
         IP = s.getsockname()[0]
     except Exception:
         _LOGGER.warning("Could not determine local IP. Falling back to 127.0.0.1")
