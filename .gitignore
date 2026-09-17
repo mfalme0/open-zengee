@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Credentials & secrets
+tinytuya.json
+get_tuya_key.py
+get_tuya_key2.py
+get_tuya_key3.py
+ssh_get_key.py
+*.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# Runtime output & logs
+*.log
+snapshot.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
