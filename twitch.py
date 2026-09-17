@@ -67,9 +67,9 @@ def play_animation(name, frame_delay=0.15, repeat=1):
 # =========================
 # Twitch Bot Setup
 # =========================
-TWITCH_TOKEN = os.getenv("TWITCH_TOKEN") or "oauth:yg36g21bv7z3tnguir0trkpey6q2g6"
-TWITCH_NICK = os.getenv("TWITCH_NICK") or "streamleds"
-TWITCH_CHANNEL = os.getenv("TWITCH_CHANNEL") or "joe_mfalme"
+TWITCH_TOKEN = os.getenv("TWITCH_TOKEN") or
+TWITCH_NICK = os.getenv("TWITCH_NICK") or 
+TWITCH_CHANNEL = os.getenv("TWITCH_CHANNEL") or 
 
 bot = commands.Bot(
     token=TWITCH_TOKEN,
